@@ -12,11 +12,6 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:calc/main.dart';
 
 void main() {
-  test('test sum', () {
-    final bool result = SimpleCalc();
-    expect(result, equals(6));
-  }, skip: true);
-
   testWidgets('Counter increments smoke test', (WidgetTester tester) async {
     // Build our app and trigger a frame.
     await tester.pumpWidget(const MyApp());
