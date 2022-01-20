@@ -6,6 +6,8 @@ void main() {
   KolyaCalc().sum(1, 2);
   KolyaCalc().sum(1, 2);
   KolyaCalc().sum(1, 2);
+  KolyaCalc().sum(1, 2);
+  KolyaCalc().sum(1, 2);
 }
 
 class MyApp extends StatelessWidget {
